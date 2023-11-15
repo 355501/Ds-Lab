@@ -3,7 +3,7 @@
 #include <cstdlib>
 using namespace std;
 
-void findElementsWithSumCloseToZero(int arr[], int size) {
+void find Element sWith Sum Close to Zero (int arr[], int size) {
     if (size < 2) {
         std::cout << "Array size is too small to find two elements!" << std::endl;
         return;
@@ -37,7 +37,7 @@ int main() {
         std::cin >> array[i];
     }
 
-    findElementsWithSumCloseToZero(array, 10);
+    find Element sWith Sum Close To Zero (array, 10);
 
     return 0;
 }
