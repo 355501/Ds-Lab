@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void removeLowestElement(std::stack<int> &stk) {
+void remove Lowest Element(std::stack<int> &stk) {
     if (stk.empty()) {
         std::cout << "Stack is empty!" << std::endl;
         return;
@@ -40,10 +40,10 @@ void removeLowestElement(std::stack<int> &stk) {
 int main()
 {
     std::stack<int> stack;
-    stack.push(5);
-    stack.push(2);
     stack.push(4);
-    stack.push(7);
+    stack.push(3);
+    stack.push(5);
+    stack.push(6);
 
     std::cout << "Stack elements are: ";
     while (!stack.empty()) {
@@ -54,11 +54,11 @@ int main()
     std::cout << std::endl;
 
 
-    stack.push(5);
-    stack.push(-1);
+    stack.push(3);
+    stack.push(2);
     stack.push(2);
     stack.push(4);
-    stack.push(7);
+    stack.push(6);
 
 
     std::cout << "Stack elements are: ";
